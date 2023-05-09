@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Hospital</title>
+  <style>
+    /* CSS styles for the website */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      padding: 5px;
+    }
+    section {
+      margin: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Our Hospital</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#doctors">Doctors</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section id="home">
+    <h2>Welcome to Our Hospital</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum justo eget ante pellentesque, ac pellentesque ipsum eleifend. Aliquam vel dui iaculis, interdum metus nec, bibendum dolor.</p>
+  </section>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nec mauris eget nunc tincidunt hendrerit. Fusce tristique enim a turpis molestie, in mattis erat dignissim.</p>
+  </section>
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>General Medicine</li>
+      <li>Surgery</li>
+      <li>Cardiology</li>
+      <li>Neurology</li>
+      <li>Orthopedics</li>
+    </ul>
+  </section>
+  <section id="doctors">
+    <h2>Our Doctors</h2>
+    <ul>
+      <li>Dr. John Smith - Cardiologist</li>
+      <li>Dr. Jane Doe - Neurologist</li>
+      <li>Dr. David Johnson - Orthopedic Surgeon</li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>123 Hospital Street, City, State, ZIP</p>
+    <p>Phone: 123-456-7890</p>
+    <p>Email: info@ourhospital.com</p>
+  </section>
+  <footer>
+    <p>&copy; 2023 Our Hospital. All rights reserved.</p>
+  </footer>
+</body>
+</html>
